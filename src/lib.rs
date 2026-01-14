@@ -1,12 +1,12 @@
 
-
-
+pub mod algorithms;
+pub mod data_structures;
+pub mod math;
 #[cfg(test)]
 mod tests {
-    use super::*;
+    // use super::*;
 
     // #[test]
     // fn it_works() {
-       
     // }
 }
