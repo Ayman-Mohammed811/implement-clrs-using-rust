@@ -1,7 +1,7 @@
 
 # Insertion sort
 
-* **Why the insertion sort mentioned in this chapter?** the goal of that making you familiar with the framework , design and and analysis of algorithms.
+* **Why the insertion sort mentioned in this chapter?** the goal of that making you familiar with the framework , design and analysis of algorithms.
 
 
 * **Insertion sort mechanism** imagine you have playing cards . You want to arrange it . you will make a starting card . You will compare it with it's prev card if it less order you will move the prev card one step forward to make it in right position then repeat until find the correct position of starting card then choose a new starting card 
