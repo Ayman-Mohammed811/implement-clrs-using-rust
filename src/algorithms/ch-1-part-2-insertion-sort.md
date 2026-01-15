@@ -22,7 +22,7 @@ Maintenance: If it's true before an iteration, it remains true before the next o
 
 * **Time complexity:** O(n^2) 
 
-### 💡 Rust Implementation Notes (The `usize` vs `isize` challenge)
+### [💡 Rust Implementation Notes (The `usize` vs `isize` challenge)](./sort/insertion_sort.rs)
 
 In **C++**, we usually let the index `j` go down to `-1` to stop the loop. This is possible because `int` is signed.
 In **Rust**, array indexing must be done using `usize` (unsigned). If `j` is `0` and you subtract `1`, the program will **panic** in debug mode due to "integer underflow".
