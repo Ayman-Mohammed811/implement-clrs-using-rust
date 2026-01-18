@@ -1,15 +1,15 @@
 
 /// Using mut slice form access slice of container like Vec or array
-/// Make it mut to allaw change values
+/// Make it mut to allow change values
 /// The type must be PartialOrd for ( > , < , >= , <=) and Copy to can copy 
 /// data 
 /// Starting loop on slice
-/// len variable save the lenght of slice( the number of element in the slice )
+/// len variable save the length of slice( the number of element in the slice )
 /// j variable save the starting point 
 /// key variable contain starting value which have index j 
-/// If the previos value of key is less  we move the value one step forward 
-/// We make that operation until we don't have previos value  ( j <=0)
-/// or key is bigger than previos value of  itself
+/// If the previous value of key is less  we move the value one step forward
+/// We make that operation until we don't have previous value  ( j <=0)
+/// or key is bigger than previous value of  itself
 /// we assign key in current index j
 pub fn sort<  T >(  sl:&mut [T] )
     where T: PartialOrd  + Copy
