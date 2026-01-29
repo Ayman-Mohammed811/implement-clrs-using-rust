@@ -24,7 +24,7 @@ Maintenance: If it's true before an iteration, it remains true before the next o
 
 ### [💡 Rust Implementation Notes (The `usize` vs `isize` challenge)](./sort/insertion_sort.rs)
 
-In **C++**, we usually let the index `j` go down to `-1` to stop the loop. This is possible because `int` is signed.
+>>In **C++**, we usually let the index `j` go down to `-1` to stop the loop. This is possible because `int` is signed.
 In **Rust**, array indexing must be done using `usize` (unsigned). If `j` is `0` and you subtract `1`, the program will **panic** in debug mode due to "integer underflow".
 
 * **C++ (Automatic conversion):**
@@ -41,4 +41,4 @@ In **Rust**, array indexing must be done using `usize` (unsigned). If `j` is `0`
     a = b as i32; // Allowed (Explicit casting)
     ```
 
-**Decision:** To keep the code safe and avoid `as isize` casting, I designed the loop to stay within the `usize` bounds by checking `j > 0` before accessing `sl[j-1]`.
+>>**Decision:** To keep the code safe and avoid `as isize` casting, I designed the loop to stay within the `usize` bounds by checking `j > 0` before accessing `sl[j-1]`.

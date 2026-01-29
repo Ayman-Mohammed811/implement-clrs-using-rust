@@ -1,6 +1,6 @@
 # Implement CLRS using Rust
 
-This repository contains implementations of algorithms and concepts from the book **"Introduction to Algorithms" (4th Edition)** using the Rust programming language.
+>>This repository contains implementations of algorithms and concepts from the book **"Introduction to Algorithms" (4th Edition)** using the Rust programming language.
 
 ## Project Structure
 
@@ -21,8 +21,8 @@ src/
 ### BOOK ROADMAP
 
 - **Foundations**
-   - **[The Role of Algorithms in Computing](./src/algorithms/ch-1-part-1-role_of_algorithms_in_computing.md)**
+   - **[The Role of Algorithms in Computing](./src/algorithms/role_of_algorithms_in_computing.md)**
    - **Getting Started**
-     - [Insertion sort](./src/algorithms/ch-1-part-2-insertion-sort.md)
-   - **Characterizing Running Times**
-     - [O-notation, Ω-notation, and ‚θ-notation](./src/math/running-times.md)
+     - [Insertion sort](./src/algorithms/insertion-sort.md)
+     - [Analyzing Algorithms](./src/algorithms/analyzing-algorithms.md)
+   - **[Characterizing Running Times](./src/math/running-times.md)**
